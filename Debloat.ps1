@@ -5,7 +5,7 @@ if ($choice == 1) {
   irm -useb https://christitus.com/win | iex
 }
 
-else if ($choice == 1) {
+elseif ($choice == 1) {
   irm -useb https://raw.githubusercontent.com/Ash-x86/Optimiser/main/Debloat/WinDebloatTools.ps1 | iex
 }
 
