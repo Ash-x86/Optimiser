@@ -1,6 +1,6 @@
 echo "This is a Debloater tool By hsA!"
 echo "1: CTT tool\n2: Win-Debloater"
-set /p $choice = "> "
+$choice = Read-Host -Prompt "> "
 if ($choice == 1) {
   irm -useb https://christitus.com/win | iex
 }
